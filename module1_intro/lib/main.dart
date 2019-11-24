@@ -1,3 +1,4 @@
+import 'package:alurabytebank/screens/post/list.dart';
 import 'package:alurabytebank/screens/transferencia/lista.dart';
 import 'package:flutter/material.dart';
 
@@ -13,7 +14,8 @@ class ByteBankApp extends StatelessWidget {
           buttonTheme: ButtonThemeData(
               buttonColor: Colors.blueAccent[700],
               textTheme: ButtonTextTheme.primary)),
-      home: ListaTransferencias(),
+//      home: ListaTransferencias(),
+      home: PostListView(),
     );
   }
 }
