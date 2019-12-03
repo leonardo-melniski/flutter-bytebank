@@ -1,5 +1,4 @@
 import 'package:alurabytebank/screens/post/list.dart';
-import 'package:alurabytebank/screens/transferencia/lista.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(ByteBankApp());
