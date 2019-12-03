@@ -1,4 +1,3 @@
-import 'dart:async';
 import 'package:alurabytebank/models/post.dart';
 import 'package:alurabytebank/services/json_placeholder.dart';
 import 'package:flutter/material.dart';
@@ -76,9 +75,8 @@ class _PostListViewState extends State<PostListView> {
   }
 }
 
-
 class ItemPostView extends StatelessWidget {
-  Post _post;
+  final Post _post;
 
   ItemPostView(this._post);
 
